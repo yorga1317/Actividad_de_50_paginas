@@ -1,0 +1,86 @@
+body {
+    background-color: white;    
+    margin: 0;
+    height: 100vh; /* Altura total de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    margin-top: 130px;
+    overflow: hidden;
+}
+
+.container {
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+}
+
+h1{
+    margin: 15px;
+    margin-top: 15px;
+    font-size: 70px;
+    width: 680px;
+}
+p{
+    margin: 5px;
+    width: 100px;
+}
+.Lorem{
+    margin: 15px;
+    font-size: 30px;
+    width: 640px;
+}
+
+a{
+    margin-top: 20px;
+    margin: 15px;
+}
+
+.link{
+    margin-top: 50px;
+}
+
+.border{
+    margin-top: 80px;
+}
+
+
+.hola{
+    margin: 15px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 15px;
+    gap: 15px;
+    width: 590px;
+    height: 100px;
+}
+
+.margin{
+    margin: 15px;
+}
+
+.boton1{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.boton2{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(226, 226, 226);
+    color: rgb(7, 7, 7);
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.boton1:hover{
+    background-color: rgb(73, 73, 73)
+}
+
+.boton2:hover{
+    background-color: rgb(207, 207, 207)
+}
