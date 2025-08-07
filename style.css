@@ -1,0 +1,39 @@
+body{
+    .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    }
+    background-color: rgb(38, 38, 38);
+    color: rgb(244, 233, 205);
+    text-align: center;
+}
+
+.tablas_interfaz ul {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 10px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.img_interfaz {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.img_interfaz img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+}
+
+.img_interfaz:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 30px rgb(244, 233, 205);
+    transition: box-shadow 0.3s ease;
+      
+}
