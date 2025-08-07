@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_padre{
+    width: 1440px;
+    height: 999px;
+    display: flex;
+    flex-direction: row;
+    gap: 116px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.texto{
+    margin-top: 68px;
+    height: 80%;
+    width: 80%;
+    width: 400px;    
+}
+.contenedor_imagen{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+img{
+    width: 716px;
+    height: 932px;
+}
+h1{
+    width: 400px;
+    font-size: 50px;
+}
+.par{
+    margin-top: 50px;
+}
+p{
+    margin-top: 20px;
+    color: #666666;
+}
+.texto-2{
+    margin-top: 250px;
+}
+h2{
+    margin-top: 15px;
+    color: #666666;
+}
+a {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: background 0.3s ease;
+    margin-top: 30px;
+}
+
+a:hover {
+    background-color: #000;
+}
+
