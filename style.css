@@ -3,10 +3,24 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: italic;
-    }
-    background-color: rgb(38, 38, 38);
-    color: rgb(244, 233, 205);
+    } 
+    background-color: rgb(35, 35, 35);
+    color: rgba(244, 233, 205, 0.737);
     text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
 }
 
 .tablas_interfaz ul {
